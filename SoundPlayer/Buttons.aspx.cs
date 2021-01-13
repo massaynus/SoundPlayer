@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace SoundPlayer
 {
-    public partial class SoundPlayer : System.Web.UI.Page
+    public partial class Buttons : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

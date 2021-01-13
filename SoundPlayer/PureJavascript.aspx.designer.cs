@@ -11,7 +11,7 @@ namespace SoundPlayer
 {
 
 
-    public partial class SoundPlayer
+    public partial class PureJavascript
     {
 
         /// <summary>
@@ -22,23 +22,5 @@ namespace SoundPlayer
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// btnPlay control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPlay;
-
-        /// <summary>
-        /// btnStop control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnStop;
     }
 }
