@@ -10,7 +10,6 @@
         function Play() {
             interval = setInterval(() => {
                 let audio = new Audio("CarHornAlarm.mp3");
-                audio.loop = true;
                 audio.fastSeek(0);
                 audio.play();
             }, 10 * 1000);
