@@ -25,8 +25,6 @@ namespace SoundPlayer
         protected void btnStop_Click(object sender, EventArgs e)
         {
             // Code behind here for stop logic
-            //ClientScript.RegisterStartupScript(GetType(), "Stop", "Stop");
-
             ScriptManager.RegisterStartupScript(this, GetType(), "s", "Stop();", true);
         }
     }
